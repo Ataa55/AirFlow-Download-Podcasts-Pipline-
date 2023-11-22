@@ -1,4 +1,5 @@
 Podcast Summary Data Pipeline with Apache Airflow
+
 This repository contains a data engineering project that leverages Apache Airflow to automate the retrieval, storage, and accessibility of podcast episodes. The main components of the project include:
 
 DAG Configuration: The podcast_summary DAG is configured to run daily, starting from November 5, 2023, with tasks for PostgreSQL table creation, podcast information retrieval, and storage optimization.
